@@ -105,6 +105,16 @@ export default function Game({ navigation }) {
                 onChangeText = {(text) => handlerChangeText(text, sIndex)}
                 style={styles.boxColumn}
               />}
+              {/* <TextInput 
+                style={ dummy.board[index][sIndex] > 0 ? [styles.boxColumn, {backgroundColor: '#90ee90'}] :
+                        styles.boxColumn
+                      }
+                value={columns === 0 ? '' : String(columns)}
+                keyboardType = 'numeric'
+                textAlign='center'
+                editable={dummy.board[index][sIndex] === 0 ? true : false}
+                onChangeText = {(text) => handlerChangeText(text, sIndex)}
+              /> */}
             </View>
           )
         })
